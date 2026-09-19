@@ -3,7 +3,6 @@
 /docs/implementation-strategy.md
 /docs/runbooks/private-multihost-deployment.md
 
-.env
 .venv/
 __pycache__/
 *.py[cod]
@@ -30,3 +29,5 @@ coverage/
 /scratch/
 /data/
 
+config.bat
+node_modules

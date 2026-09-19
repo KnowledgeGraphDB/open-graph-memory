@@ -8,8 +8,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "build": "tsc --noEmit && vite build",
-    "dev": "vite",
+    "build": "node init && tsc --noEmit && vite build",
+    "dev": "node init && vite",
     "preview": "vite preview"
   },
   "dependencies": {
